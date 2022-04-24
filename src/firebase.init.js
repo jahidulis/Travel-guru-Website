@@ -1,17 +1,17 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+import { getAuth } from "firebase/auth";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
-import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_apiKey,
-  authDomain: process.env.REACT_APP_authDomain,
-  projectId: process.env.REACT_APP_projectId,
-  storageBucket: process.env.REACT_APP_storageBucket,
-  messagingSenderId: process.env.REACT_APP_messagingSenderId,
-  appId: process.env.REACT_APP_appId,
+  apiKey: "AIzaSyC5YUA-DIXV38udSOs0YSYxDREkLdGtk5g",
+  authDomain: "travel-guru-c0c0b.firebaseapp.com",
+  projectId: "travel-guru-c0c0b",
+  storageBucket: "travel-guru-c0c0b.appspot.com",
+  messagingSenderId: "272233199433",
+  appId: "1:272233199433:web:88bb2fce5c6083b7fe0c98"
 };
 
 // Initialize Firebase
